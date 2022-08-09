@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-size: 16px;
+  color: hsl(227, 12%, 61%);
+}
+.btn {
+  border-radius: 25px;
+  padding: 10px 25px;
+  color: hsl(0, 0%, 98%);
+  background-color: #f25f3a;
+
+  font-size: 16px;
+  font-weight: 600;
+}
