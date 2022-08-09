@@ -1,11 +1,12 @@
 <template>
-  <div id="app" class="bg-lightGray">
+  <div id="app">
     <router-view />
   </div>
 </template>
 
 <style>
 #app {
+background-color : #FFFFFF;
   background-image: url("./assets/bg-tablet-pattern.svg"),
     url("./assets/bg-tablet-pattern.svg");
   background-position: 110% -10%, -60% 70%;
